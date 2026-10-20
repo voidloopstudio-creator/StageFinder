@@ -114,6 +114,12 @@ def main():
         hist.append(entry)
         HIST.parent.mkdir(exist_ok=True)
         HIST.write_text(json.dumps(hist, ensure_ascii=False, indent=1), encoding='utf-8')
+    # copie versionnée (le publieur du matin la récupère depuis GitHub) ; on garde 10 jours
+    vd = ROOT / 'videos'; vd.mkdir(exist_ok=True)
+    shutil.copy(mp4, vd / mp4.name)
+    shutil.copy(OUT / f'caption_{today.isoformat()}.txt', vd / f'caption_{today.isoformat()}.txt')
+    for old in sorted(vd.glob('StageFinder_*.mp4'))[:-10]:
+        old.unlink(); (vd / old.name.replace('StageFinder_', 'caption_').replace('.mp4', '.txt')).unlink(missing_ok=True)
     summary = {'video': str(mp4), 'caption': caption, 'entry': entry}
     (OUT / 'summary.json').write_text(json.dumps(summary, ensure_ascii=False, indent=1), encoding='utf-8')
     print(json.dumps(summary, ensure_ascii=False, indent=1))
