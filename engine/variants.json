@@ -1,0 +1,49 @@
+{
+  "hooks": [
+    {"q": "Chercher\nun stage ?", "f": "Facile.", "nl": "mails envoyés.", "z": "réponse.", "zs": "(Classique.)", "n": [31, 78]},
+    {"q": "Ton CV\ntraîne ?", "f": "Normal.", "nl": "candidatures.", "z": "réponse.", "zs": "(Le silence.)", "n": [24, 66]},
+    {"q": "Un stage\nde 3ᵉ ?", "f": "Courage.", "nl": "appels passés.", "z": "rappel.", "zs": "(Aucun.)", "n": [18, 52]},
+    {"q": "Trouver\nun stage ?", "f": "Épique.", "nl": "mails perdus.", "z": "réponse.", "zs": "(Le vide.)", "n": [35, 90]},
+    {"q": "Postuler\npartout ?", "f": "Fatigant.", "nl": "portes fermées.", "z": "ouverte.", "zs": "(Même pas une.)", "n": [22, 60]},
+    {"q": "Stage\nintrouvable ?", "f": "Normal.", "nl": "mails sans suite.", "z": "réponse.", "zs": "(Zéro.)", "n": [27, 85]},
+    {"q": "Ton stage\nse cache ?", "f": "Visiblement.", "nl": "CV envoyés.", "z": "réponse.", "zs": "(Toujours rien.)", "n": [20, 70]}
+  ],
+  "sectors": [
+    {"query": "Boulangerie, Lyon", "city": "Lyon", "comps": [["Maison Martin", "hello@martin.fr"], ["Pain Doré", "bonjour@paindore.fr"], ["Les Fournils", "stage@fournils.fr"], ["Aux Délices", "hello@auxdelices.fr"]]},
+    {"query": "Agence web, Nantes", "city": "Nantes", "comps": [["Studio Lumen", "bonjour@lumen.studio"], ["Atelier Nova", "hello@atelier-nova.fr"], ["Pixel & Co", "stage@pixelandco.fr"], ["Orbit Digital", "hello@orbit.digital"]]},
+    {"query": "Vétérinaire, Bordeaux", "city": "Bordeaux", "comps": [["Clinique Vétéo", "contact@veteo.fr"], ["Cabinet Pattes", "stage@pattes.fr"], ["Vet Garonne", "hello@vetgaronne.fr"], ["Animalia", "bonjour@animalia.vet"]]},
+    {"query": "Architecte, Lille", "city": "Lille", "comps": [["Cabinet Durand", "stage@durand.fr"], ["Atelier Brique", "hello@brique.fr"], ["Lignes & Co", "bonjour@lignes.co"], ["Plan B Archi", "hello@planb.archi"]]},
+    {"query": "Studio photo, Paris", "city": "Paris", "comps": [["Studio Lumière", "hello@studiolumiere.fr"], ["Focale 35", "stage@focale35.fr"], ["Atelier Argent", "hello@argent.photo"], ["Iris Photo", "contact@iris.photo"]]},
+    {"query": "Garage auto, Toulouse", "city": "Toulouse", "comps": [["Garage Moreau", "contact@moreau-auto.fr"], ["Auto Pilote", "stage@autopilote.fr"], ["Mécano Plus", "hello@mecanoplus.fr"], ["Rapid Auto", "bonjour@rapidauto.fr"]]},
+    {"query": "Restaurant, Marseille", "city": "Marseille", "comps": [["Le Vieux Port", "stage@vieuxport.fr"], ["Chez Marcel", "hello@chezmarcel.fr"], ["La Bastide", "contact@labastide.fr"], ["Mer & Sel", "bonjour@mer-sel.fr"]]},
+    {"query": "Mairie, Rennes", "city": "Rennes", "comps": [["Mairie de Vern", "stage@mairie-vern.fr"], ["Médiathèque Est", "hello@mediatheque.fr"], ["Maison Jeunes", "contact@maisonjeunes.fr"], ["Office Tourisme", "stage@officetourisme.fr"]]}
+  ],
+  "students": [
+    {"first": "Léa", "name": "Léa Martin", "klass": "Élève de 3ᵉ", "line": "Je suis élève de 3ᵉ et je cherche un", "line2": "stage d’observation d’une semaine."},
+    {"first": "Hugo", "name": "Hugo Bernard", "klass": "Élève de 3ᵉ", "line": "Je suis en 3ᵉ et je cherche un", "line2": "stage d’observation de 5 jours."},
+    {"first": "Inès", "name": "Inès Moreau", "klass": "Lycéenne en seconde", "line": "Lycéenne en seconde, je cherche un", "line2": "stage d’observation d’une semaine."},
+    {"first": "Yanis", "name": "Yanis Petit", "klass": "Lycéen en seconde", "line": "Lycéen en seconde, je cherche un", "line2": "stage d’observation de 5 jours."},
+    {"first": "Chloé", "name": "Chloé Roux", "klass": "Élève de 3ᵉ", "line": "Je suis élève de 3ᵉ et je cherche un", "line2": "stage d’observation de 5 jours."},
+    {"first": "Noah", "name": "Noah Girard", "klass": "Lycéen en seconde", "line": "Lycéen en seconde, je cherche un", "line2": "stage d’observation d’une semaine."}
+  ],
+  "subjects": ["Candidature – stage d’observation", "Demande de stage d’une semaine", "Stage d’observation – candidature"],
+  "rowsubs": ["Candidature – stage", "Demande de stage", "Stage d’observation"],
+  "heads": {
+    "search": ["Trouve\nles emails.", "Les emails ?\nTrouvés.", "Trouve qui\ncontacter."],
+    "send": ["Envoie\nen un clic.", "Postule.\nUn clic.", "Écris. Envoie.\nC’est fait."],
+    "track": ["Suis chaque\nréponse.", "Sache qui\na répondu.", "Ne rate aucune\nréponse."],
+    "cv": ["Ton CV.\nTa lettre.", "CV prêt.\nLettre prête.", "Importe ton CV.\nExporte en PDF."],
+    "cvdone": ["Prêts.", "Nickel.", "Impeccable."]
+  },
+  "words": [["Trouve.", "Envoie.", "Suis.", "Décroche."], ["Cherche.", "Écris.", "Relance.", "Signe."], ["Repère.", "Postule.", "Suis.", "Réussis."], ["Vise.", "Envoie.", "Suis.", "Gagne."]],
+  "fins": [{"t": "Fini la\ngalère.", "fs": 210}, {"t": "Le stage,\nsans stress.", "fs": 160}, {"t": "Zéro\ngalère.", "fs": 230}, {"t": "Ton stage,\nenfin facile.", "fs": 150}],
+  "captions": [
+    "47 mails, 0 réponse ? Stage Finder change la donne. 📩",
+    "Trouve les emails, envoie ta candidature, suis les réponses. Tout au même endroit.",
+    "Chercher un stage, c’est plus simple quand tout est au même endroit. 🟢",
+    "Ton CV, ta lettre, tes envois, tes réponses : Stage Finder s’occupe du reste.",
+    "Fini les mails sans réponse. Trouve ton stage. Enfin. ✨",
+    "Un clic pour postuler, un écran pour tout suivre. Stage Finder arrive."
+  ],
+  "hashtags": ["#stage", "#stagefinder", "#recherchedestage", "#stage3eme", "#stagedeseconde", "#lycee", "#college", "#orientation", "#astuce", "#etudiant"]
+}

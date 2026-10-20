@@ -1,0 +1,6 @@
+out/
+engine/cfg.js
+__pycache__/
+*.pyc
+client_secret_*.json
+.env*
